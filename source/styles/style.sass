@@ -1,0 +1,270 @@
+//blocqueto
+//forms
+
+
+$primary: rgb(65, 94, 202)
+$sucess: rgb(28, 191, 79)
+$info: rgb(110, 198, 211)
+$warning: rgb(227, 63, 62)
+$grey: rgb(240, 248, 255)
+
+$font-h: 40px
+
+
+*
+  box-sizing: border-box
+
+*:before,
+*:after
+  box-sizing: border-box
+
+body
+  font-size: 14px
+
+h1
+  font-size: $font-h
+
+h2
+  font-size: $font-h - 5
+
+h3
+  font-size: $font-h - 10
+
+h4
+  font-size: $font-h - 15
+
+h5
+  font-size: $font-h - 20
+
+h6
+  font-size: $font-h - 25
+
+img
+  border: 0
+  vertical-align: middle
+
+blockquote
+  padding: 10px 20px
+  margin: 0 0 20px
+  font-size: 17px
+  border-left: 5px solid $grey
+
+blockquote footer
+  display: block
+  font-size: 80%
+  line-height: 1.42857143
+  color: $grey
+
+.blockquote-reverse
+  text-align: right
+  border-left: 0
+  border-right: 5px solid $grey
+
+.text-small
+  font-size: 60%
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-center
+  text-align: center
+
+.text-justify
+  text-align: justify
+
+.text-uppercase
+  text-transform: uppercase
+
+.text-lowercase
+  text-transform: lowercase
+
+.float-left
+  float: left!important
+
+.float-right
+  float: right!important
+
+.center
+  display: block
+  margin: 0 auto
+
+.clearfix
+  &:before,
+  &:after
+    content: " "
+    display: table
+  &:after
+    clear: both
+
+.show
+  display: block !important
+
+.hidden
+  display: none !important
+  visibility: hidden !important
+
+.list-inline
+  list-style: none
+
+.list-inline li,
+.list-inline ul
+  display: inline-block
+  padding-left: 5px
+
+.table
+  width: 100%
+
+.table-striped tr:nth-child(2n)
+  background-color: $grey
+
+
+.table-border
+  border: 3px solid $grey
+
+.table-hover tr:hover td,
+.table-hover tr:hover th
+  background-color: darken($grey, 20%)
+
+.radio-inline,
+.checkbox-inline
+  display: inline-block
+  vertical-align: middle
+  padding-left: 20px
+
+.help-block
+  color: #737373
+  margin: 5px 0 10px 0
+  display: block
+
+.form
+  display: block
+  width: 100%
+  height: 34px
+  padding: 6px 12px
+
+fieldset
+  padding: 0
+  margin: 0
+  border: 0
+  min-width: 0
+
+legend
+  display: block
+  width: 100%
+  padding: 0
+  margin-bottom: 20px
+  font-size: 21px
+  line-height: inherit
+  color: $grey
+  border: 0
+  border-bottom: 1px solid #e5e5e5
+
+label
+  display: inline-block
+  max-width: 100%
+  margin-bottom: 5px
+  font-weight: bold
+
+input[type="search"]
+  box-sizing: border-box
+
+input[type="radio"],
+input[type="checkbox"]
+  margin: 4px 0 0
+  line-height: normal
+
+input[type="file"]
+  display: block
+
+input[type="range"]
+  display: block
+  width: 100%
+
+select[multiple],
+select[size]
+  height: auto
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus
+  outline: 5px auto -webkit-focus-ring-color
+  outline-offset: -2px
+
+output
+  display: block
+  padding-top: 7px
+  font-size: 14px
+  line-height: 1.42857143
+
+
+.btn
+  color: #fff
+  display: inline-block
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  border: 1px solid transparent
+  white-space: nowrap
+  padding: 6px 12px
+  font-size: 14px
+  line-height: 1.42857143
+  border-radius: 4px
+
+.btn-primary
+  background-color: $primary
+  border-color: $primary
+  &:hover
+    background-color: darken($primary, 15%)
+
+.btn-sucess
+  background-color: $sucess
+  border-color: $sucess
+  &:hover
+    background-color: darken($sucess, 15%)
+
+.btn-info
+  background-color: $info
+  border-color: $info
+  &:hover
+    background-color: darken($info, 15%)
+
+.btn-warning
+  background-color: $warning
+  border-color: $warning
+  &:hover
+    background-color: darken($warning, 15%)
+
+.btn-default
+  background-color: transparent
+  border-color: #40474f
+  color: #000
+  &:hover
+    background-color: #95b7ad
+
+.bg-primary
+  background-color: $primary
+
+.bg-sucess
+  background-color: $sucess
+
+.bg-info
+  background-color: $info
+
+.bg-warning
+  background-color: $warning
+
+.text-primary
+  color: $primary
+
+.text-sucess
+  color: $sucess
+
+.text-info
+  color: $info
+
+.text-warning
+  color: $warning
+
