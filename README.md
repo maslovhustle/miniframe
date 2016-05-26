@@ -12,8 +12,21 @@ and some my styles.
 
 
 #### <i>Text styles</i>
-.text-center, .text-left, .text-right, .text-justify, .text-lowercase,
-.text-uppercase, .text-small, .text-primary, .text-sucess, .text-info, .text-warning
+* text position
+ * .text-center
+ * .text-center
+ * .text-left
+ * .text-right
+ * .text-justify
+* text register
+ * .text-lowercase
+ * .text-uppercase
+ * .text-small,
+* text color
+ * .text-primary
+ * .text-sucess
+ * .text-info
+ * .text-warning
 
 #### <i>Position styles</i>
 * .float-left
