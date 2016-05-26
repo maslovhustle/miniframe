@@ -13,56 +13,66 @@ and some my styles.
 
 #### <i>Text styles</i>
 ```
-* text position
- * .text-center
- * .text-center
- * .text-left
- * .text-right
- * .text-justify
-* text register
- * .text-lowercase
- * .text-uppercase
- * .text-small (font-size:60%)
-* text color
- * .text-primary (blue color)
- * .text-sucess (green color)
- * .text-info (aqua color)
- * .text-warning (red color)
+ text position
+  .text-center
+  .text-center
+  .text-left
+  .text-right
+  .text-justify
+ text register
+  .text-lowercase
+  .text-uppercase
+  .text-small (font-size:60%)
+ text color
+  .text-primary (blue color)
+  .text-sucess (green color)
+  .text-info (aqua color)
+  .text-warning (red color)
 ```
 
 #### <i>Position styles</i>
 ```
-* .float-left
-* .float-right
-* .center
-* .clearfix (clearfix with :after and :before)
-* .show (show block)
-* .hidden (hidden block)
+ .float-left
+ .float-right
+ .center
+ .clearfix (clearfix with :after and :before)
+ .show (show block)
+ .hidden (hidden block)
 ```
 
 #### <i>List and table stylese</i>
 ```
-* .list-inline
-* .table (width:100%)
-* .table-striped (background color in :nth-child(2n))
-* .table-border 
-* .table-hover
+ .list-inline
+ .table (width:100%)
+ .table-striped (background color in :nth-child(2n))
+ .table-border 
+ .table-hover
 ```
+#### <i>List and table stylese</i>
+To do forms use `.form` class to the `<form>` tag
+```
+ .btn-primary (blue color)
+ .btn-sucess (green color)
+ .btn-info (aqua color)
+ .btn-warning (red color)
+ .btn-default (no color)
+```
+
 
 #### <i>Button styles</i>
 To do buttons use `.btn` class
 ```
-* .btn-primary (blue color)
-* .btn-sucess (green color)
-* .btn-info (aqua color)
-* .btn-warning (red color)
-* .btn-default (no color)
+ .btn-primary (blue color)
+ .btn-sucess (green color)
+ .btn-info (aqua color)
+ .btn-warning (red color)
+ .btn-default (no color)
 ```
 
 #### <i>Background styles</i>
 ```
-* .bg-primary (blue color)
-* .bg-sucess (green color)
-* .bg-info (aqua color)
-* .bg-warning (red color)
+ .bg-primary (blue color)
+ .bg-sucess (green color)
+ .bg-info (aqua color)
+ .bg-warning (red color)
 ```
