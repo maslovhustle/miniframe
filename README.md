@@ -12,6 +12,7 @@ and some my styles.
 
 
 #### <i>Text styles</i>
+```
 * text position
  * .text-center
  * .text-center
@@ -21,23 +22,47 @@ and some my styles.
 * text register
  * .text-lowercase
  * .text-uppercase
- * .text-small,
+ * .text-small (font-size:60%)
 * text color
- * .text-primary
- * .text-sucess
- * .text-info
- * .text-warning
+ * .text-primary (blue color)
+ * .text-sucess (green color)
+ * .text-info (aqua color)
+ * .text-warning (red color)
+```
 
 #### <i>Position styles</i>
+```
 * .float-left
 * .float-right
 * .center
-* .clearfix
-* .show
-* .hidden
+* .clearfix (clearfix with :after and :before)
+* .show (show block)
+* .hidden (hidden block)
+```
+
+#### <i>List and table stylese</i>
+```
+* .list-inline
+* .table (width:100%)
+* .table-striped (background color in :nth-child(2n))
+* .table-border 
+* .table-hover
+```
+
+#### <i>Button styles</i>
+To do buttons use `.btn` class
+```
+* .btn-primary (blue color)
+* .btn-sucess (green color)
+* .btn-info (aqua color)
+* .btn-warning (red color)
+* .btn-default (no color)
+```
 
 #### <i>Background styles</i>
-* .bg-primary
-* .bg-sucess
-* .bg-info
-* .bg-warning
+```
+* .bg-primary (blue color)
+* .bg-sucess (green color)
+* .bg-info (aqua color)
+* .bg-warning (red color)
+```
