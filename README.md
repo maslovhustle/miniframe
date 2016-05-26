@@ -6,9 +6,9 @@ He was include normalize.css ( https://github.com/necolas/normalize.css/ ),
 flexboxgrid.css ( https://github.com/kristoferjoseph/flexboxgrid )
 and some my styles.
 
-1. ol U can see demo in public/index.html
-2. ol Initial css files are in public/styles/
-3. ol Also u can inspect code and watch mode details of styles.
+1. U can see demo in public/index.html
+2. Initial css files are in public/styles/
+3. Also u can inspect code and watch mode details of styles.
 
 
 #### <i>Text styles</i>
