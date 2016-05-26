@@ -6,8 +6,9 @@ He was include normalize.css ( https://github.com/necolas/normalize.css/ ),
 flexboxgrid.css ( https://github.com/kristoferjoseph/flexboxgrid )
 and some my styles.
 
-1. U can see demo in public/index.html
-2. Initial css files are in public/styles/
+1. U can see demo in `public/index.html`
+2. Publis version is `public/libstyle.min.css`
+2. Initial css files are in `public/styles/`
 3. Also u can inspect code and watch mode details of styles.
 
 In this miniframe u can see little kit of styles, because for example many styles in bootstrap are excess. 
