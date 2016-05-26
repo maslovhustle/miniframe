@@ -49,15 +49,15 @@ and some my styles.
  .table-hover
 ```
 #### <i>List and table stylese</i>
-To do forms use `.form` class to the `<form>` tag
+To do forms use `.form` class to the `<form>` tag. More styles are sets for:
 ```
- .btn-primary (blue color)
- .btn-sucess (green color)
- .btn-info (aqua color)
- .btn-warning (red color)
- .btn-default (no color)
+ fieldset
+ legend
+ label
+ input
+ select
+ output
 ```
-
 
 #### <i>Button styles</i>
 To do buttons use `.btn` class
