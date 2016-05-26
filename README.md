@@ -6,8 +6,25 @@ He was include normalize.css ( https://github.com/necolas/normalize.css/ ),
 flexboxgrid.css ( https://github.com/kristoferjoseph/flexboxgrid )
 and some my styles.
 
-U can see demo in public/index.html
+1. ol U can see demo in public/index.html
+2. ol Initial css files are in public/styles/
+3. ol Also u can inspect code and watch mode details of styles.
 
-Initial css files are in public/styles/
 
-Also u can inspect code and watch mode details of styles.
+#### <i>Text styles</i>
+.text-center, .text-left, .text-right, .text-justify, .text-lowercase,
+.text-uppercase, .text-small, .text-primary, .text-sucess, .text-info, .text-warning
+
+#### <i>Position styles</i>
+* .float-left
+* .float-right
+* .center
+* .clearfix
+* .show
+* .hidden
+
+#### <i>Background styles</i>
+* .bg-primary
+* .bg-sucess
+* .bg-info
+* .bg-warning
