@@ -10,20 +10,24 @@ and some my styles.
 2. Initial css files are in public/styles/
 3. Also u can inspect code and watch mode details of styles.
 
+In this miniframe u can see little kit of styles, because for example many styles in bootstrap are excess. 
+Сlasses that you will see below as the name suggest the style that in they set.
+
+
 
 #### <i>Text styles</i>
 ```
- text position
+- text position
   .text-center
   .text-center
   .text-left
   .text-right
   .text-justify
- text register
+- text register
   .text-lowercase
   .text-uppercase
   .text-small (font-size:60%)
- text color
+- text color
   .text-primary (blue color)
   .text-sucess (green color)
   .text-info (aqua color)
